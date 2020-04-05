@@ -1,25 +1,99 @@
-.header {
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.header__hero {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   background-image: url(../../images/png/bar.png);
-  color: #2B2B2C;
-  height: 1em;
-  padding: 1em; }
-  .header .nav {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none; }
-  .header .nav > li {
-    margin: 0 1rem; }
-  .header .nav-links {
-    margin-left: 40px;
-    color: #2B2B2C;
-    text-decoration: none; }
-  .header .active {
-    color: #1078AD;
-    font-weight: bold; }
-  .header .nav-links:hover {
+  color: black;
+  height: 2em;
+  padding: 2em; }
+
+.header .nav {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none; }
+
+.header .nav > li {
+  margin: 0 1rem; }
+
+.header .nav-links {
+  margin-left: 40px;
+  color: black;
+  text-decoration: none; }
+
+.header .active {
+  color: #1078AD;
+  font-weight: bold; }
+
+.header .nav-links:hover {
+  font-weight: bold;
+  color: #1078AD; }
+
+.header__infos {
+  padding: 2%;
+  background-color: #f4cf1b; }
+  .header__infos .titre {
+    text-align: center;
     font-weight: bold;
-    color: #1078AD; }
+    color: #1087c7;
+    font-size: 25px;
+    padding-bottom: 1%; }
+  .header__infos p {
+    text-align: center;
+    margin-bottom: 0em; }
+
+.header .pensez {
+  display: flex;
+  padding: 3%; }
+  .header .pensez__infor .titre {
+    text-align: center;
+    font-weight: bold;
+    color: #1087c7;
+    font-size: 20px; }
+  .header .pensez__infor img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .header .pensez__infor .que {
+    text-align: center;
+    margin-bottom: 0em;
+    font-weight: bold;
+    color: #87837f;
+    font-size: 20px; }
+  .header .pensez__infor button {
+    background-image: url(../../images/png/bar.png);
+    background-position: center;
+    padding: 15px;
+    margin-top: 3%;
+    border: 2px solid #1087c7;
+    border-radius: 12px;
+    color: #1087c7;
+    font-size: 20px;
+    font-weight: bold;
+    width: 650px; }
+    .header .pensez__infor button:hover {
+      background-color: #1087c7;
+      color: white; }
+  .header .pensez__image img {
+    width: 100%;
+    height: auto; }
+
+@media only screen and (max-width: 987px) {
+  .pensez {
+    display: flex;
+    flex-direction: column-reverse; }
+    .pensez__infor button {
+      width: 100% !important; }
+    .pensez__image {
+      margin-bottom: 4em !important;
+      margin-top: 3em; } }
