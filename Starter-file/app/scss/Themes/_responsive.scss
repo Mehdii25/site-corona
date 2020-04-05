@@ -19,6 +19,48 @@
    
 }
 
+@media only screen and (max-width: 987px) {
+    .content2 {
+        h3 {
+            font-size: 25px;
+        }
+
+        .sous_titre {
+            font-size: 15px;
+            padding-left: 10%;
+        }
+
+        .recon {
+            display: flex;
+            flex-direction: column;
+            padding-left: 0px;
+
+            &__inter {
+                p {
+                    color: $color_white;
+                    font-size: 15px;
+                }
+            }
+
+            &__btns {
+
+                button {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+            }
+        }
+
+
+
+
+    }
+
+}
+
+
 
 
 
