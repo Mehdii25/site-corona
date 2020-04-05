@@ -1,0 +1,28 @@
+.cont{
+    .title h2{
+      margin-top: 40px;
+      font-weight: bold;
+      text-align: center;
+    color: $color-blue;
+    }
+    
+    .content{
+      display: flex;
+      flex-wrap: wrap;
+     
+    }
+    .card{
+      
+      flex: 4 0 40%; 
+      margin: 20px;
+      height: 170px;
+      color: $color-blue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    h4{
+      text-align: center;
+    }
+    }

@@ -59,7 +59,8 @@ body {
     text-align: center;
     font-weight: bold;
     color: #1087c7;
-    font-size: 20px; }
+    font-size: 20px;
+    margin-bottom: 2em; }
   .header .pensez__infor img {
     display: block;
     margin-left: auto;
@@ -87,6 +88,28 @@ body {
   .header .pensez__image img {
     width: 100%;
     height: auto; }
+
+.cont .title h2 {
+  margin-top: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #1078AD; }
+
+.cont .content {
+  display: flex;
+  flex-wrap: wrap; }
+
+.cont .card {
+  flex: 4 0 40%;
+  margin: 20px;
+  height: 170px;
+  color: #1078AD;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.cont h4 {
+  text-align: center; }
 
 @media only screen and (max-width: 987px) {
   .pensez {
