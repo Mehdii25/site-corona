@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../../images/png/bar.png);
+  color: #2B2B2C;
+  height: 1em;
+  padding: 1em; }
+  .header .nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; }
+  .header .nav > li {
+    margin: 0 1rem; }
+  .header .nav-links {
+    margin-left: 40px;
+    color: #2B2B2C;
+    text-decoration: none; }
+  .header .active {
+    color: #1078AD;
+    font-weight: bold; }
+  .header .nav-links:hover {
+    font-weight: bold;
+    color: #1078AD; }
