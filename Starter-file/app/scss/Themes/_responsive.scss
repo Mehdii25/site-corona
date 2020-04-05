@@ -61,6 +61,21 @@
 }
 
 
+@media only screen and (max-width: 987px) {
+    .protege {
+        &__imgs
+        {
+         
+            img
+            {
+                width:5em !important;
+            }
+        }
+       
+    }
+    }
+
+
 
 
 
